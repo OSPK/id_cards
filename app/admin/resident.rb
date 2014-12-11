@@ -1,4 +1,5 @@
 ActiveAdmin.register Resident do
+  permit_params :name, :photo, :cnic, :phone, :address, :guardian, :thumbprint
 
 
   # See permitted parameters documentation:
